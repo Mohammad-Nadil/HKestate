@@ -16,3 +16,14 @@
   object-position: center center; /* always center */
 }
 
+#full_city,
+#building_top,
+#wall_side,
+#wall_front,
+#interior_wall_top,
+#interior_wall_side,
+#interior_wall_side_2,
+#interior_wall_front {
+  will-change: transform, opacity;
+}
+
