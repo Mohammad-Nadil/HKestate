@@ -21,7 +21,7 @@ const Hero = () => {
       scrollTrigger: {
         trigger: ".scroller",
         start: "top top",
-        end: mobile ? "+=200%" : "+=400%",
+        end: mobile ? "+=100%" : "+=250%",
         scrub: 1,
         pin: true,
       },
